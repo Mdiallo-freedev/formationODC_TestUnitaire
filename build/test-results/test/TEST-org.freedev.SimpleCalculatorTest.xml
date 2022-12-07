@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.freedev.SimpleCalculatorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-07T17:09:55" hostname="DESKTOP-S0BG5BB" time="0.015">
+  <properties/>
+  <testcase name="test_if_calculated_is_working()" classname="org.freedev.SimpleCalculatorTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
