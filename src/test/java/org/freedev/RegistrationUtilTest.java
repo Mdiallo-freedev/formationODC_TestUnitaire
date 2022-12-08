@@ -16,4 +16,24 @@ class RegistrationUtilTest {
         assertTrue(registrationUtil.validateUserInput("mamadou","doumbia","doumbia"));
 
     }
+    @Test
+    void test_if_unername_isEmpty(){
+        boolean actual = registrationUtil.validateUserInput("","doumbi","doumbia");
+        assertFalse(actual);
+    }
+    @Test
+    void test_if_pasword_isEmpty(){
+        boolean actual = registrationUtil.validateUserInput("","doumbi","doumbia");
+        assertFalse(actual);
+    }
+    @Test
+    void test_if_all_isEmpty(){
+        boolean actual = registrationUtil.validateUserInput("","","");
+        assertFalse(actual);
+    }
+    @Test
+    void test_correct_isEmpty(){
+        boolean actual = registrationUtil.validateUserInput("mamadou","doumbia","doumbia");
+        assertTrue(actual);
+    }
 }
