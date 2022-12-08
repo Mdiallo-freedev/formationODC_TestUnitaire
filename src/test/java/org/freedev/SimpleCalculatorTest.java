@@ -25,8 +25,9 @@ class SimpleCalculatorTest {
     }
     @Test
     void test_isBoolean(){
-        assertEquals(true,calculator.isEvent(10));
-        assertEquals(false,calculator.isEvent(13));
+        assertTrue(calculator.isEvent(10));
+        assertFalse(calculator.isEvent(13));
+
     }
 
 }
